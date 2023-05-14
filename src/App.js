@@ -1,9 +1,9 @@
-import SubmitButtonComponent from './components/SubmitButtonComponent';
+import SubmitButton from './components/SubmitButton';
 
 function App() {
   return (
     <div className="App">
-      <SubmitButtonComponent/>
+      <SubmitButton/>
     </div>
   );
 }

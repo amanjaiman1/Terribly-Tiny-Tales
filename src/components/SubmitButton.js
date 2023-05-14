@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { slideAnimation } from "../config/motion";
 
 
-export default function SubmitButtonComponent() {
+export default function SubmitButton() {
   const [isLoading, setIsLoading] = useState(false);
 
   const loadHandle = () => {
