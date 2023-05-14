@@ -13,7 +13,7 @@ export default function Histogram() {
     fetch("https://www.terriblytinytales.com/test.txt")
       .then((response) => response.text())
       .then((text) => {
-        const cleanedText = text.replace(/[^\w\s]/gi, "").toLowerCase();
+        const cleanedText = text.replace(/[^\w\s]/gi, "").toUpperCase();
 
         const wordsArray = cleanedText.split(/\s+/);
 
@@ -68,11 +68,11 @@ export default function Histogram() {
   };
 
   return (
-    <div style={{ width: "50vw" }}>
+    <div style={{ width: "60vw", gap:"50px" }}>
       {histogramData && <Bar data={histogramData} />}
       <br />
       <br />
-      <button onClick={handleExport}>Export</button>
+      <button className="custom-btn" onClick={handleExport}>Export</button>
     </div>
   );
 }

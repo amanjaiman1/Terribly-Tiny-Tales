@@ -1,5 +1,4 @@
-import './App.css';
-import SubmitButtonComponent from './SubmitButtonComponent';
+import SubmitButtonComponent from './components/SubmitButtonComponent';
 
 function App() {
   return (
