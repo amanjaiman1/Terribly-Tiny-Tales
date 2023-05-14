@@ -13,11 +13,11 @@
 
 ### The following libraries and plugins are used in the project:
 
-React: A JavaScript library for building user interfaces.
-react-router-dom: A library that provides routing capabilities for React applications.
-react-chartjs-2: A library for creating charts in React using Chart.js.
-chart.js/auto: A plugin that automatically installs the required Chart.js components based on the chart type used.
-framer-motion: A animation library for creating fluid animations and gestures in React applications.
+* React: A JavaScript library for building user interfaces.
+* react-router-dom: A library that provides routing capabilities for React applications.
+* react-chartjs-2: A library for creating charts in React using Chart.js.
+* chart.js/auto: A plugin that automatically installs the required Chart.js components based on the chart type used.
+* framer-motion: A animation library for creating fluid animations and gestures in React applications.
 
 ## Deployment - 
-> https://histotale.netlify.app
+* https://histotale.netlify.app
