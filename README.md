@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Netlify Deployment-
+>https://histotale.netlify.app
 
 
 
